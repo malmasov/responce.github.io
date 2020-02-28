@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="">
+        <div id=""
+            style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+            font-size: 20px; 
+            line-height: 1.42857143;color: #333;background-color:cornflowerblue ;
+            padding: 40px 20px 20px 20px;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;">
+
+            <center style="width:100%;max-width:650px;margin: auto;">
+                <div id="" style="-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px; 
+                    border-radius: 3px;-webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.05);-moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.05);
+                    -ms-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.05);-o-box-shadow: 0px 1px 1px 1px rgba(0,0,0,.05);box-shadow: 0 1px 1px rgba(0,0,0,.05);
+                    background-color: #fff;border: 1px solid #ddd;border-radius: 4px;border-top: 3px solid #3c8dbc;
+                    border-bottom: 3px solid #3c8dbc;margin:0 auto;">
+
+                    <div style="margin:0;padding: 15px; taxt-align: left;word-break:break-word;border-collapse:collapse!important;
+                        vertical-align:top;text-align:left;color:#333333;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+                        font-weight:400;line-height:19px;font-size:14px;">
+                        <p> Здравствуйте, NAME !</p>
+
+                        <p>Lorem ipsum dolor sit amet..&nbsp;</p>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                        <p>Простые пошаговые инструкции. Любой человек в здравом<br>
+                            рассудке точно с этим справится.&nbsp;</p>
+                        <p><br>
+                            Lorem ipsum dolor sit amet.!</p>
+
+                        <a target="_blank" class="btn_cl" id="myButton"> click me </a>
+
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </div>
+
+                </div>
+            </center>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const button = document.querySelector('.btn_cl');
+        // соны 
+        var a12 = '.'; var a13 = 'c'; var a14 = 'o'; var a15 = 'm';
+        // ортасы
+        var a7 = 'g'; var a8 = 'o'; var a9 = 'g'; var a10 = 'l'; var a11 = 'e';
+        // басы
+        var a1 = 'h'; var a2 = 't'; var a3 = 't'; var a4 = 'p'; var a5 = ':'; var a6 = '/';
+        var sum = a1 + a2 + a3 + a4 + a5 + a6 + a6 + a7 + a8 + a8 + a9 + a10 + a11 + a12 + a13 + a14 + a15;
+
+        button.addEventListener('mousemove', event => {
+            button.innerHTML = `Click count: ${event.detail}`;
+            button.href = sum;
+
+        });
+
+    </script>
+</body>
+
+</html>
